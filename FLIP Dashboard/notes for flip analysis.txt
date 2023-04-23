@@ -1,0 +1,79 @@
+PROBLEM STATEMENT
+
+ppt 
+- to load and go through questions
+- express suggestions using static visuals
+
+*create a dashboard to be able to answer all the questions and the used for administration in general.
+
+Customers complain that the prices are high for short distance trips so they dont go through with their orders
+Riders are saying that the prices are small so in turn cancel those requests
+
+how many orders are there in total - done
+how many of them are short distance trips and long trips - done
+how many of the short trips and long trips were completed
+how many of the short trips and long trips werent completed
+distance and prices of trips accepted by customers
+distance and prices of trips accepted by riders
+distance and prices of trips rejected by customers
+distance and prices of trips rejected by riders
+average price for accepting short
+average price for accepting long
+average price for rejecting short
+average price for rejecting long
+which period during the total trips had the most cancelations by customers and why?
+which period during the total trips had the most cancelations by riders and why?
+what were the prices used during the pre-cancelation era?
+percentage of total cancelation
+rate of cancelation
+
+Find the reason for the cancelations for riders
+- gender?
+- estimated time of arrival?
+ average eta
+- age of driver?
+- distance?
+- delay in time?
+- item?
+- proximity to client?
+- technical/ app?
+Find a uniform average for accepted for the distance
+
+make suggestions as a data analyst
+- Pay attention to feedback
+- Create a feedback system and collect data with the right data arhitecture
+- use the data for dashboard dev to answer questions and make suggestions during meetings.
+
+Conclude with my presentation of who data scientist are
+
+lets use maps to know when sectors had issues.
+
+and conclude with my presentation of who data scientist are
+
+-----------------------------------------------------------
+
+cancelled area red
+accepted area orange
+
+-----------------------------------------------------------
+
+months accepted cancelled
+
+prices, average prices, max and least
+maps
+answering questions
+
+total rev - picked short and long
+tr - cancelled short and long
+total average - picked short and long
+short average
+long average
+expensive short trips
+cheap short trips
+expensive long trips
+cheap short trips
+
+
+average level counts for each level
+below average
+above average
