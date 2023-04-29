@@ -28,14 +28,25 @@
 5 Sales Sum = SUM('Marketing - Sales Report'[Sum of CONTRACT SUM])
 ```
 
-number of renewals
-      6. Count of Renewal = COUNTX('Marketing - Sales Report', 'Marketing - Sales Report'[REMARKS] == "Renewal")
-number of new
-      7. Count of New = COUNTX('Marketing - Sales Report', 'Marketing - Sales Report'[REMARKS] == "New")
+> number of renewals
 
-Max money
-      8. Max Rental money = MAX('Marketing  Cash Received'[RENTAL])
-Average money
+```
+6. Count of Renewal = COUNTX('Marketing - Sales Report', 'Marketing - Sales Report'[REMARKS] == "Renewal")
+```
+
+> number of new
+
+```      
+7. Count of New = COUNTX('Marketing - Sales Report', 'Marketing - Sales Report'[REMARKS] == "New")
+```
+
+> Max money
+
+```
+8. Max Rental money = MAX('Marketing  Cash Received'[RENTAL])
+```
+
+> Average money
      9. Ave Rental Money = AVERAGE('Marketing  Cash Received'[RENTAL])
 min money
     9a Min Rental Money = MIN('Marketing  Cash Received'[RENTAL])
