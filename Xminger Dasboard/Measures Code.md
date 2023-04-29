@@ -5,14 +5,28 @@
 ```
 
 > Total number of clients cash
-      2 T number of clients - Cash = COUNT('Marketing  Cash Received'[NAME OF CLIENT])
 
-Sum of printing 
-      3 Cash Printing Sum = SUM('Marketing  Cash Received'[PRINTING])
-Sum of rental 
-      4 Cash Rental Sum = SUM('Marketing  Cash Received'[RENTAL])
-Sum of sales
-      5 Sales Sum = SUM('Marketing - Sales Report'[Sum of CONTRACT SUM])
+```
+2 T number of clients - Cash = COUNT('Marketing  Cash Received'[NAME OF CLIENT])
+```
+
+> Sum of printing 
+
+```
+3 Cash Printing Sum = SUM('Marketing  Cash Received'[PRINTING])
+```
+
+> Sum of rental
+
+```
+4 Cash Rental Sum = SUM('Marketing  Cash Received'[RENTAL])
+```
+
+> Sum of sales
+
+```
+5 Sales Sum = SUM('Marketing - Sales Report'[Sum of CONTRACT SUM])
+```
 
 number of renewals
       6. Count of Renewal = COUNTX('Marketing - Sales Report', 'Marketing - Sales Report'[REMARKS] == "Renewal")
