@@ -47,6 +47,13 @@
 ```
 
 > Average money
-     9. Ave Rental Money = AVERAGE('Marketing  Cash Received'[RENTAL])
-min money
-    9a Min Rental Money = MIN('Marketing  Cash Received'[RENTAL])
+
+```
+9. Ave Rental Money = AVERAGE('Marketing  Cash Received'[RENTAL])
+```
+
+> min money
+
+```
+9a Min Rental Money = MIN('Marketing  Cash Received'[RENTAL])
+```
