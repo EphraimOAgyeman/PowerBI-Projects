@@ -1,5 +1,5 @@
-Total number of clients sales
-      1 T number of clients - Sales = COUNT('Marketing - Sales Report'[NAME OF CLIENT])
+> Total number of clients sales
+```1 T number of clients - Sales = COUNT('Marketing - Sales Report'[NAME OF CLIENT])```
 Total number of clients cash
       2 T number of clients - Cash = COUNT('Marketing  Cash Received'[NAME OF CLIENT])
 
